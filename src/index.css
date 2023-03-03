@@ -1,0 +1,944 @@
+@font-face {
+    font-family: fontDBZ;
+    src: url('../letras/Saiyan-Sans.ttf');
+}
+
+@font-face {
+    font-family: lato;
+    src: url('../letras/Lato-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo2{
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.titleDragonBall{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 9vh;
+    left: 9vw;
+    width: 80vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+.estrella1{
+    width: 0;
+}
+.estrella2{
+    width: 0;
+}
+.estrella3{
+    width: 0;
+}
+.estrella4{
+    padding-left: 2vw;
+    width: 5vw;
+}
+.estrella4-2{
+    padding-right: 2vw;
+    width: 5vw;
+}
+.estrella5{
+    width: 0;
+}
+.estrella6{
+    width: 0;
+}
+.estrella7{
+    width: 0;
+}
+
+@media screen and (max-width: 800px){
+    .estrella4{
+        padding-left: 2vw;
+        width: 10vw;
+    }
+    
+    .estrella4-2{
+        padding-right: 2vw;
+        width: 10vw;
+    }
+}
+
+.tiltleMain{
+    font-family: fontDBZ;
+    font-size: 6vw;
+}
+
+@media screen and (max-width: 1000px){
+    .tiltleMain{
+        font-family: fontDBZ;
+        font-size: 9vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .tiltleMain{
+        font-family: fontDBZ;
+        font-size: 12vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .tiltleMain{
+        font-family: fontDBZ;
+        font-size: 14vw;
+    }
+}
+
+.videoOP{
+    position: absolute;
+    top: 25vh;
+    left: 2vw;
+    bottom: 0;
+    width: 60vw;
+    height: 70vh;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .videoOP{
+        position: absolute;
+        top: 25vh;
+        left: 9vw;
+        bottom: 0;
+        width: 80vw;
+        height: 30vh;
+    }
+}
+
+.containerContent{
+    position: absolute;
+    top: 25vh;
+    right: 1.5vw;
+    width: 35vw;
+    height: 70vh;
+    background-color: #6f6;
+    overflow: auto;
+    box-shadow: -2px 5px 5px 7px #000;
+    border-radius: 10%;
+    border-style: double;
+    border-color: #5cf;
+    border-width: .4rem;
+}
+
+.titleContent{
+    position: absolute;
+    padding-top: .5vh;
+    left: 18%;
+    font-family: fontDBZ;
+    font-size: 4vw;
+}
+
+
+@media screen and (max-width: 600px){
+    .containerContent{
+        position: absolute;
+        top: 60vh;
+        left: 9vw;
+        width: 80vw;
+        height: 40vh;
+        background-color: #6f6;
+    }
+    .titleContent{
+        position: absolute;
+        left: 20%;
+    }
+    .shenlong{
+        width: 0vw;
+        height: 0vh;
+        position: absolute;
+    }
+}
+
+.listaContent{
+    position: absolute;
+    top: 9vh;
+    left: 9vw;
+    font-family: fontDBZ;
+    font-size: 3vw;
+}
+
+.option{
+    padding-top: .5vh;
+}
+
+.radarDragon{
+    position: absolute;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    width: 5vw;
+}
+
+.radarDragon2{
+    position: absolute;
+    padding-top: 2vh;
+    right: 3.5vh;
+    width: 3vw;
+}
+
+
+.shenlong{
+    position: absolute;
+    width: 1vw;
+    z-index: -5;
+}
+
+.a{
+    text-decoration: none;
+    color: #000;
+}
+
+.a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1ad;
+}
+
+@media screen and (max-width: 750px){
+    .radarDragon{
+        z-index: -5;
+    }
+
+    .titleContent{
+        position: absolute;
+        padding-top: 2vh;
+        left: 7%;
+        font-family: fontDBZ;
+        font-size: 5vw;
+    }
+    
+    .radarDragon2{
+        position: absolute;
+        padding-top: 2vh;
+        right: 2vh;
+        z-index: -1;
+    }
+
+    .listaContent{
+        position: absolute;
+        top: 13vh;
+        left: 5vw;
+        font-family: fontDBZ;
+        font-size: 4vh;
+    }
+    
+    .listaContent .optionV{
+        font-size: 3vh;
+    }
+
+    .shenlong{
+        position: absolute;
+        bottom: 0;
+        left: 7vw;
+        width: 20vh;
+        z-index: 10;
+    }
+}
+
+.fondo3{
+    position: absolute;
+    top: 100vh;
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.containerTitleSinopsis{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 105vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titleSinopsis{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 5em;
+}
+
+.containerSinopsis{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: start;
+    top: 120vh;
+    left: 11vw;
+    width: 78vw;
+    height: 50vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.textSinopsis{
+    padding-top: 3vh;
+    font-family: lato;
+    font-size: 4.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+}
+
+.gokuChiquitoPng{
+    float: left;
+    width: 3em;
+}
+
+.piccoloDaimakuPNG{
+    float: right;
+    width: 3em;
+}
+
+.maestroRoshiPNG{
+    float: left;
+    width: 3em;
+}
+
+.fondo5{
+    position: absolute;
+    top: 200vh;
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo6{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.containerTitlePersonajes{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 180vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titlePersonajes{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 4em;
+}
+
+.containerPersonajes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    top: 195vh;
+    left: 11vw;
+    width: 78vw;
+    height: 80vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.fondo7{
+    position: absolute;
+    top: 300vh;
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo8{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.containerTitleCapitulos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 285vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titleCapitulos{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 4.5em;
+}
+
+.containerCapitulos{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    top: 300vh;
+    left: 11vw;
+    width: 78vw;
+    height: 50vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.textCapitulos{
+    padding-top: 3vh;
+    font-family: lato;
+    font-size: 4.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.pilafPNG{
+    float: left;
+    width: 4em;
+}
+
+.puarPNG{
+    float: right;
+    width: 4em;
+}
+
+.fondo9{
+    position: absolute;
+    top: 400vh;
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo10{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.containerTitlePeliculas{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 360vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titlePeliculas{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 5em;
+}
+
+.containerPeliculas{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    top: 375vh;
+    left: 11vw;
+    width: 78vw;
+    height: 50vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.containerTitleTemporadas{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 435vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titleTemporadas{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 4em;
+}
+
+.containerTemporadas{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    top: 450vh;
+    left: 11vw;
+    width: 78vw;
+    height: 50vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.fondo11{
+    position: absolute;
+    top: 500vh;
+    width: 98.9vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo12{
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+}
+
+.containerTitleExtras{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+    height: 10vh;
+    background-color: #18f;
+    top: 510vh;
+    left: 11vw;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: #5cf #18f;
+    border-width: .5rem;
+}
+
+.titleExtras{
+    position: absolute;
+    font-family: fontDBZ;
+    font-size: 5em;
+}
+
+.containerExtras{
+    position: absolute;
+    text-align: center;
+    font-family: fontDBZ;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    top: 525vh;
+    left: 11vw;
+    width: 78vw;
+    height: 70vh;
+    background-color: #18f;
+    overflow: auto;
+}
+
+.rapDragonBall{
+    font-size: 5rem;
+}
+
+.videoRap{
+    position: static;
+    top: 25vh;
+    left: 2vw;
+    bottom: 0;
+    width: 50vw;
+    height: 70vh;
+}
+
+.historiaVideo{
+    font-size: 5rem;
+}
+
+.videoUnMinuto{
+    position: static;
+    top: 25vh;
+    left: 2vw;
+    bottom: 0;
+    width: 50vw;
+    height: 70vh;
+}
+
+.curiosidadesDB{
+    font-size: 5rem;
+}
+
+.videoCuriosidadesDB{
+    position: static;
+    top: 25vh;
+    left: 2vw;
+    bottom: 0;
+    width: 50vw;
+    height: 70vh;
+}
+
+@media screen and (max-width: 1300px){
+    .listaContent{
+        position: absolute;
+        font-size: 4.5vw;
+        top: 9vh;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .radarDragon2{
+        position: absolute;
+        padding-top: 2vh;
+        right: 2vh;
+        width: 3vw;
+    }
+
+    .listaContent{
+        position: absolute;
+        top: 9vh;
+        left: 5vw;
+        font-family: fontDBZ;
+        font-size: 5.8vw;
+    }
+    .videoRap{
+        height: 40vh;
+    }
+    .videoUnMinuto{
+        height: 40vh;
+    }
+    .videoCuriosidadesDB{
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .listaContent{
+        font-size: 6vw;
+    }
+    .listaContent .option{
+        padding-left: 15vw;
+        list-style: none;
+    }
+    .estrella1{
+        width: 4vw;
+    }
+    .estrella2{
+        width: 4vw;
+    }
+    .estrella3{
+        width: 4vw;
+    }
+    .estrella5{
+        width: 4vw;
+    }
+    .estrella6{
+        width: 4vw;
+    }
+    .estrella7{
+        width: 4vw;
+    }
+    .titleContent{
+        left: 17vw;
+        font-size: 8vw;
+    }
+    .radarDragon{
+        left: 4vw;
+        top: .5vh;
+        width: 3.2em;
+        z-index: 5;
+    }
+    .radarDragon2{
+        padding-top: 2vh;
+        right: 3vh;
+        width: 2.5em;
+        z-index: 1;
+    }
+    .listaContent{
+        position: absolute;
+        top: 8vh;
+    }
+    .option{
+        padding-top: 1vh;
+    }
+    .videoRap{
+        height: 30vh;
+    }
+    .videoUnMinuto{
+        height: 30vh;
+    }
+    .videoCuriosidadesDB{
+        height: 30vh;
+    }
+    .rapDragonBall{
+        font-size: 3.5rem;
+    }
+    .historiaVideo{
+        font-size: 3.5rem;
+    }
+    .curiosidadesDB{
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .fondo{
+        position: absolute;
+    }
+    .fondo2{
+        position: absolute;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+    .fondo3{
+        position: absolute;
+    }
+    .fondo4{
+        position: absolute;
+        display: block;
+        top: 100vh;
+        width: 100vw;
+        height: 100vh;
+    }
+    .fondo5{
+        width: 0;
+        position: absolute;
+    }
+    .fondo6{
+        position: absolute;
+        display: block;
+        top: 200vh;
+        width: 100vw;
+        height: 100vh;
+    }
+    .fondo7{
+        width: 0;
+        position: absolute;
+    }
+    .fondo8{
+        position: absolute;
+        display: block;
+        top: 300vh;
+        width: 100vw;
+        height: 100vh;
+    }
+    .fondo9{
+        width: 0;
+        position: absolute;
+    }
+    .fondo10{
+        position: absolute;
+        display: block;
+        top: 500vh;
+        width: 100vw;
+        height: 100vh;
+    }
+    .fondo11{
+        width: 0;
+        position: absolute;
+    }
+    .fondo12{
+        position: absolute;
+        display: block;
+        top: 400vh;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .listaContent{
+        font-size: 7.8vw;
+    }
+    .estrella1{
+        position: absolute;
+        left: 14vw;
+        top: .6em;
+        width: .8em;
+    }
+    .estrella2{
+        position: absolute;
+        left: 14vw;
+        top: 2.4em;
+        width: .8em;
+    }
+    .estrella3{
+        position: absolute;
+        left: 14vw;
+        top: 4.1em;
+        width: .8em;
+    }
+    .estrella5{
+        position: absolute;
+        left: 14vw;
+        top: 5.8em;
+        width: 0.8em;
+    }
+    .estrella6{
+        position: absolute;
+        left: 13.5vw;
+        top: 7.5em;
+        width: 1em;
+    }
+    .estrella7{
+        position: absolute;
+        left: 14vw;
+        top: 9.3em;
+        width: .8em;
+    }
+}
+
+@media screen and (max-width: 445px){
+    .radarDragon{
+        left: 2vw;
+        width: 2.6em;
+        z-index: 5;
+    }
+    .radarDragon2{
+        padding-top: 2vh;
+        right: 2vh;
+        width: 2em;
+    }
+    .listaContent{
+        font-size: 8.5vw;
+    }
+    .listaContent .option{
+        padding-left: 20vw;
+        list-style: none;
+    }
+    .estrella1{
+        position: absolute;
+        left: 18vw;
+        top: .7em;
+        width: .8em;
+    }
+    .estrella2{
+        position: absolute;
+        left: 18vw;
+        top: 2.4em;
+        width: .8em;
+    }
+    .estrella3{
+        position: absolute;
+        left: 18vw;
+        top: 4.1em;
+        width: .9em;
+    }
+    .estrella5{
+        position: absolute;
+        left: 18vw;
+        top: 5.9em;
+        width: 0.8em;
+    }
+    .estrella6{
+        position: absolute;
+        left: 18vw;
+        top: 7.6em;
+        width: 0.9em;
+    }
+    .estrella7{
+        position: absolute;
+        left: 18vw;
+        top: 9.3em;
+        width: .8em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .titleContent{
+        left: 10vw;
+        font-size: 10vw;
+    }
+    .radarDragon{
+        padding-top: 2.5vh;
+        left: -.5vw;
+        width: 2em;
+        z-index: 5;
+    }
+    .radarDragon2{
+        padding-top: 2.5vh;
+        right: 1vh;
+        width: 1.5em;
+    }
+    .listaContent{
+        font-size: 8vw;
+        left: 1vw;
+    }
+    .estrella1{
+        left: 22vw;
+    }
+    .estrella2{
+        left: 22vw;
+    }
+    .estrella3{
+        left: 22vw;
+    }
+    .estrella5{
+        left: 22vw;
+    }
+    .estrella6{
+        left: 22vw;
+    }
+    .estrella7{
+        left: 22vw;
+    }
+}
+
